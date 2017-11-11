@@ -1,0 +1,23 @@
+An deployment monitoring application for my work
+-------------------------------------------------
+
+I worked for this in my free time, 
+
+I was experimenting with ElectronJS Documentation, and at the time, we were having hard time managing deployed IPs, So to solve this problem I have built this. 
+
+What it does is,
+	1) We can enter IP series ( like 192.X.X ) and application will scan all IPs and finds out which are alive and which are down. 
+	2) And those alive IPs are pinged and application will display version ,build details and link in a card view (used material-ui)
+	3) Search and filter based on version and IP
+	4) Seperate view for down nodes, so deployment can be done hassle-free
+
+Its in two forms : 
+	Desktop application ( Windows and Linux compatible ) and Web form.
+
+Many of my colleagues have the desktop application in their local system and the web application is deployed as well. I'm kinda feel proud of this.
+
+Desktop application is built upon ElectronJS. 
+
+Web application in fine-tuned and I have used React for Front-end and NodeJS for Backend. I learned both technologies on my own since we dont use any of that in my work. 
+
+I learned a lot while doing this, and I was appreciated and got an award for this.
